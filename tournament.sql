@@ -6,6 +6,9 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
+--this file is used to set up your database schema
+--(the table representation of your data structure).
+
 
 -- Drop database if exists everytime our program runs
 DROP DATABASE IF EXISTS tournament;
@@ -53,3 +56,10 @@ SELECT playersRegistered.playerid, playersRegistered.name,
 
 FROM playersRegistered
 ORDER BY wins,matches;
+
+-- Drop view if exists
+DROP VIEW IF EXISTS playerDetails;
+
+CREATE VIEW playerDetails AS
+SELECT playersRegistered.playerid, playersRegistered.name
+FROM playersRegistered;

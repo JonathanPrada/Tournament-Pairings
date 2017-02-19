@@ -6,6 +6,11 @@
 # If you do add any of the extra credit options, be sure to add/modify these test cases
 # as appropriate to account for your module's added functionality.
 
+# this is a client program which will use your
+# functions written in the tournament.py module.
+# We've written this client program to test your
+# implementation of functions in tournament.py
+
 from tournament import *
 
 def testCount():
