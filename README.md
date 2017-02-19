@@ -31,22 +31,30 @@ Using GIT Gui, CD into root directory of vagrant file:
 cd /vagrant
 
 Within the vagrant folder type:
+'''
 vagrant up
 vagrant ssh
+'''
 
 CD to /vagrant/tournament folder:
+'''
 cd /vagrant/tournament
+'''
 
 Connect to postgresql:
+'''
 psql
+'''
 
 Execute the tournament database schema setup:
+'''
 \i tournament.sql;
 \q
+'''
 
 Back on /vagrant/tournament, execute the tests:
+'''
 python tournament_test.py
+'''
 
 You will see a list of test results.
-
-
