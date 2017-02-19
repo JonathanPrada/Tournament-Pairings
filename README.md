@@ -21,7 +21,7 @@ Make sure your command line has python, if not download python to your terminal
 
 All tournament pairing scripts within a file housing Vagrant in the following structure:
 
-/vagrant/tournament/tournament.py, tournament_test.py, tournament.sql.
+Inline /vagrant/tournament/tournament.py, tournament_test.py, tournament.sql.
 
 ## RUNNING
 
