@@ -49,6 +49,7 @@ psql
 Execute the tournament database schema setup:
 
 \i tournament.sql;
+
 \q
 
 
